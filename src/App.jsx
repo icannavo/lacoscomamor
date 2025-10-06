@@ -6,7 +6,7 @@ import la4 from './assets/la4.jpg'
 import la5 from './assets/la5.jpg'
 import la6 from './assets/la6.jpg'
 import guir0 from './assets/Guir0.png'
-import guir2 from './assets/Guir2.png'
+import guir1 from './assets/Guir1.png'
 import guir3 from './assets/Guir3.png'
 import guir4 from './assets/Guir4.png'
 import casa2 from './assets/casa2.png'
@@ -64,7 +64,7 @@ function App() {
   // Images for carousels per category (replace with real images as they are added to assets)
   const categoryImages = {
     lacos: [la1, la2, la3, la4, la5, la6],
-    Natal: [guir0, guir2, guir3, guir4],
+    Natal: [guir0, guir1, guir3, guir4],
     casa: [casa2, casa3, casa4, casa5, casa6, casa7],
   }
 
