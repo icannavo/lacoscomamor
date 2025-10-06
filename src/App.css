@@ -137,3 +137,12 @@ html {
 .animate-float {
   animation: float 3s ease-in-out infinite;
 }
+
+
+.website-background {
+  background-image: url("./assets/background_bow.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}

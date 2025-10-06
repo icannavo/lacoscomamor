@@ -10,12 +10,15 @@ function Card({
     <div
       data-slot="card"
       className={cn(
-        "bg-card text-card-foreground flex flex-col gap-6 rounded-xl border py-6 shadow-sm",
+        // Classe modificada: Adicionado "/70" para 70% de opacidade no fundo (30% de transparência)
+        "bg-card/40 text-card-foreground flex flex-col gap-6 rounded-xl border py-6 shadow-sm",
         className
       )}
       {...props} />
   );
 }
+
+// ... (Resto dos componentes CardHeader, CardTitle, etc. não precisam de alteração)
 
 function CardHeader({
   className,
